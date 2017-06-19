@@ -62,7 +62,8 @@ class swift_test_UITestsUITests: XCTestCase {
     
     func testReturningBack() {
         let testingText = "1"
-        let textField = application.textFields["isItIdentifier"]
+//        let textField = application.textFields["isItIdentifier"]
+        let textField = application.textFields["isItIdentifier_______"]
         textField.tap()
         textField.typeText(testingText)
         
